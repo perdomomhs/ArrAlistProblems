@@ -23,6 +23,7 @@ public class Problems {
 
      /* I imported the java.util.Arrays class for you. With this class you can sort any array of primitives
       * Simply call Arrays.sort(array) and the contents of the array will be sorted in ascending order 
+      * WARNING: Only use Arrays.sort on arrays of primitives and Strings
       */
 
      //Hint: Sort it first
@@ -62,15 +63,30 @@ public class Problems {
 
      }
 
+     //Returns the biggest (absolute) difference between two conscutive elements 
+     public int bigDiffConsecutive(int[] arr){
 
+     }
+
+     //Returns the biggest difference betweeen ANY two numbers in the array
+     //Hint: Sort it first
+     public double bigDiff(double[]  arr){
+
+     } 
+
+
+     // The following problem use the Athlete class. Take a look at it before you do the problems
+
+     //Return the 
+     public String[] withJersey(int n){
+        
+     }
+     
 
      /****
       * ArrayList Problems
-      */
-
-          /******
-     * Array Problems 
-     *****/
+      *
+      *****/
 
      public static double mean(int[] arr){
 
