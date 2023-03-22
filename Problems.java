@@ -53,35 +53,48 @@ public class Problems {
 
 
      //get rid of the first n elements of the array. If n>=arr.length, then return an array of size 0;
-     public int[]  chopNOff(int[] arr){
+     public static int[]  chopNOff(int[] arr){
 
      }
 
      //return an array with the numbers that are divisble 3
      //Hint: Count them first. 
-     public int[] onlyDiv3(int[] arr){
+     public static int[] onlyDiv3(int[] arr){
 
      }
 
      //Returns the biggest (absolute) difference between two conscutive elements 
-     public int bigDiffConsecutive(int[] arr){
+     public static int bigDiffConsecutive(int[] arr){
 
      }
 
      //Returns the biggest difference betweeen ANY two numbers in the array
      //Hint: Sort it first
-     public double bigDiff(double[]  arr){
+     public static double bigDiff(double[]  arr){
 
      } 
 
 
      // The following problem use the Athlete class. Take a look at it before you do the problems
 
-     //Return the 
-     public String[] withJersey(int n){
+     //Return the names of the athletes with the Jersey number n
+     public static String[] withJersey(Athlete[] aths, int n){
         
      }
-     
+
+     //Return the average number of points for the given school
+     public static double schoolAvg(Athlete[] aths, String school){
+
+     }
+
+     //Return an array of the Athletes except any athlete who's jersey is in the exlcuded jerseys
+     //Hint: Count first using a double for loop 
+     public static Athlete[] excludeJerseys(Athlete[] aths, int[] exJerseys){
+
+     }
+
+
+
 
      /****
       * ArrayList Problems
@@ -92,8 +105,9 @@ public class Problems {
 
      }
 
-     /* I imported the java.util.Arrays class for you. With this class you can sort any array of primitives
-      * Simply call Arrays.sort(array) and the contents of the array will be sorted in ascending order 
+     /* Sorting ArrayList:
+      * https://www.programiz.com/java-programming/library/arraylist/sort
+      * WARNING: This will only work for Integer,Douuble,Boolean, and String ArrayList
       */
 
      //Hint: Sort it first
@@ -110,4 +124,67 @@ public class Problems {
      public static double max(ArrayList<Double> array){
 
      }
+
+     public static int secondMaxIndex(ArrayList<Double> alist){
+
+     }
+    
+     //return an array with the first n elements of the array. When n>arr.length, then just return arr.
+     public static ArrayList<String> firstN(ArrayList<String> alist){
+        
+     }
+
+
+     //get rid of the first n elements of the array. If n>=arr.length, then return an ArrayList of size 0;
+     public static ArrayList<Integer> chopNOff(ArrayList<Integer> alist){
+
+     }
+
+     //return an array with the numbers that are divisble 3
+     public static ArrayList<Integer> onlyDiv3(ArrayList<Integer> alist){
+
+     }
+
+     //Returns the biggest (absolute) difference between two conscutive elements 
+     public static int bigDiffConsecutive(ArrayList<Integer> alist){
+
+     }
+
+     //Returns the biggest difference betweeen ANY two numbers in the array
+     //Hint: Sort it first
+     public static double bigDiff(ArrayList<Double>  alist){
+        
+     } 
+
+
+     // The following problem use the Athlete class. Take a look at it before you do the problems
+
+     //Return the names of the athletes with the Jersey number n
+     public static ArrayList<String> withJersey(ArrayList<Athlete> aths, int n){
+        
+     }
+
+     //Return the average number of points for the given school
+     public static double schoolAvg(ArrayList<Athlete> aths, String school){
+
+     }
+
+     //Return an array of the Athletes except any athlete who's jersey is in the exlcuded jerseys 
+     public static ArrayList<Athlete> excludeJerseys(ArrayList<Athlete> aths, int[] exJerseys){
+
+     }
+     //returns a list of the top N athletes with the most points
+     public static ArrayList<Athlete> topN(ArrayList<Athlete> athletes){
+
+     }
+
+     //return a String with the best (highest points) player from each school
+     //Exmple: 
+     //String  str = "Joe  -  Magnolia+\n
+     //               Ana - MagWest+\n
+     //               Steve - Consol"
+     public static String bestFromEachSchool(ArrayList<Athlete> alist){
+
+     }
+
 }
