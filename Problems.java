@@ -47,13 +47,13 @@ public class Problems {
      }
     
      //return an array with the first n elements of the array. When n>arr.length, then just return arr.
-     public static String[] firstN(String[] arr){
+     public static String[] firstN(String[] arr, int n){
         
      }
 
 
      //get rid of the first n elements of the array. If n>=arr.length, then return an array of size 0;
-     public static int[]  chopNOff(int[] arr){
+     public static int[]  chopNOff(int[] arr, int n){
 
      }
 
@@ -101,7 +101,7 @@ public class Problems {
       *
       *****/
 
-     public static double mean(int[] arr){
+     public static double mean(ArrayList<Intger> alist){
 
      }
 
@@ -130,13 +130,13 @@ public class Problems {
      }
     
      //return an array with the first n elements of the array. When n>arr.length, then just return arr.
-     public static ArrayList<String> firstN(ArrayList<String> alist){
+     public static ArrayList<String> firstN(ArrayList<String> alist, int n){
         
      }
 
 
      //get rid of the first n elements of the array. If n>=arr.length, then return an ArrayList of size 0;
-     public static ArrayList<Integer> chopNOff(ArrayList<Integer> alist){
+     public static ArrayList<Integer> chopNOff(ArrayList<Integer> alist, int n){
 
      }
 
